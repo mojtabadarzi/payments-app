@@ -6,3 +6,25 @@ html {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
 }
+
+@keyframes slide-down {
+  from {
+    transform: scaleY(0.8);
+    opacity: 0;
+  }
+
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
